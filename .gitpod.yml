@@ -1,2 +1,5 @@
 image:
   file: Dockerfile
+tasks:
+  - init:"chmod +x initialize.sh"
+  - command: "./initialize.sh"
