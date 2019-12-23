@@ -4,7 +4,7 @@ USER root
 
 
 RUN bash -c ". /home/gitpod/.sdkman/bin/sdkman-init.sh \
-             && sdk list java"
+             && sdk install java 8.0.202.j9-adpt "
              
  
 USER gitpod
