@@ -4,9 +4,8 @@ USER root
 
 
 RUN bash -c ". /home/gitpod/.sdkman/bin/sdkman-init.sh \
-             && sdk install java "
+             && sdk install java 8.0.201-oracle"
              
-RUN apt-get update \
- && apt-get install -y libx11-dev libxkbfile-dev libsecret-1-dev libgconf2–4 libnss3
+R
  
 USER gitpod
