@@ -1,5 +1,4 @@
 image:
   file: Dockerfile
 tasks:
-  - init:"chmod +x initialize.sh"
-  - command: "./initialize.sh"
+  -command: "chmod +x initialize.sh &&./initialize.sh"
